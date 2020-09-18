@@ -33,7 +33,7 @@ const Mobile = (props) => {
         <li className="get-started"><a href="#about">Get Started</a></li>
       </ul>
     </nav>
-    {/* <div className="mobile-nav-overly" style={{display:"block"}} ></div> */}
+    {/* <div className="mobile-nav-overly" style={{display:"block"}} ></div>A */}
     </>
   )
 }
