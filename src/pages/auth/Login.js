@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import {Link} from "react-router-dom";
 
 const Login = (props) => {
     return (
@@ -9,8 +10,8 @@ const Login = (props) => {
                         <h2>Login</h2>
                 </div>
                 <div className="row">
-                    <div className="col-lg" data-aos="fade-up" data-aos-delay="100">
-
+                <div className="col-lg-3"></div>
+                    <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                         <form action="forms/contact.php" method="post" className="php-email-form mt-4">
                             <div className="form-group">
                                 <input type="email" className="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
@@ -26,12 +27,13 @@ const Login = (props) => {
                                 <div className="sent-message">Your message has been sent. Thank you!</div>
                             </div>
                             <div className="text-center"><button type="submit">Login</button></div>
-                            <div className="text-center"><p>Don't have an account ? <a href="#">Sign up</a></p></div>
+                            <div className="text-center mt-4"><p>Don't have an account ? <span><Link to="/signup"><u>Sign up</u></Link></span></p></div>
                         </form>
                     </div>
+                    <div className="col-lg-3"></div>
                 </div>
-
             </div>
+            <p className="text-center mt-4"><Link to="/"><u>Go to home </u></Link></p>
         </section>
     )
 }

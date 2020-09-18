@@ -1,11 +1,9 @@
 import React from 'react';
-import Home from "./pages/Home";
+import Navigation from './navigation/Navigation';
 
 function App() {
     return (
-        <>
-            <Home/>
-        </>
+        <Navigation />
     );
 }
 

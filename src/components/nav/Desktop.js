@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import {Link} from "react-router-dom";
 
 const Desktop = (props) => {
     return (
@@ -11,7 +12,7 @@ const Desktop = (props) => {
                 <li><a href="#portfolio">Drinks</a></li>
                 <li className="drop-down"><a href="">Account</a>
                     <ul>
-                        <li><a href="#">Login</a></li>
+                        <li><Link to="/login">Login</Link></li>
                         <li><a href="#">Profile</a></li>
                         <li><a href="#">Sign Out</a></li>
                     </ul>
