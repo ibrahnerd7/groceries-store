@@ -4,10 +4,10 @@ import Hero from "../components/Hero";
 
 const Home=(props)=>{
     return(
-        <div>
+        <>
             <Header />
             <Hero />
-        </div>
+        </>
     )
 }
 
