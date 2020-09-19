@@ -10,7 +10,7 @@ const Grocery = (props) => {
                 </div>
                 <div className="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-                    <div className="col-lg-3 col-md-3 portfolio-item filter-app">
+                    <div className="col-lg-3 col-md-3  col-6 portfolio-item filter-app">
                         <div className="portfolio-wrap">
                             <img src="assets/img/portfolio/portfolio-1.jpg" className="img-fluid" alt="" />
                             <div className="portfolio-info">
@@ -24,7 +24,7 @@ const Grocery = (props) => {
                         </div>
                     </div>
 
-                    <div className="col-lg-3 col-md-3 portfolio-item filter-web">
+                    <div className="col-lg-3 col-md-3 col-6 portfolio-item filter-web">
                         <div className="portfolio-wrap">
                             <img src="assets/img/portfolio/portfolio-2.jpg" className="img-fluid" alt="" />
                             <div className="portfolio-info">
@@ -38,7 +38,7 @@ const Grocery = (props) => {
                         </div>
                     </div>
 
-                    <div className="col-lg-3 col-md-3 portfolio-item filter-app">
+                    <div className="col-lg-3 col-md-3 col-6 portfolio-item filter-app">
                         <div className="portfolio-wrap">
                             <img src="assets/img/portfolio/portfolio-3.jpg" className="img-fluid" alt="" />
                             <div className="portfolio-info">
@@ -52,7 +52,7 @@ const Grocery = (props) => {
                         </div>
                     </div>
 
-                    <div className="col-lg-3 col-md-3 portfolio-item filter-card">
+                    <div className="col-lg-3 col-md-3 col-6 portfolio-item filter-card">
                         <div className="portfolio-wrap">
                             <img src="assets/img/portfolio/portfolio-4.jpg" className="img-fluid" alt="" />
                             <div className="portfolio-info">
@@ -66,7 +66,7 @@ const Grocery = (props) => {
                         </div>
                     </div>
 
-                    <div className="col-lg-3 col-md-3 portfolio-item filter-web">
+                    <div className="col-lg-3 col-md-3 col-6 portfolio-item filter-web">
                         <div className="portfolio-wrap">
                             <img src="assets/img/portfolio/portfolio-5.jpg" className="img-fluid" alt="" />
                             <div className="portfolio-info">
@@ -80,7 +80,7 @@ const Grocery = (props) => {
                         </div>
                     </div>
 
-                    <div className="col-lg-3 col-md-3 portfolio-item filter-app">
+                    <div className="col-lg-3 col-md-3 col-6 portfolio-item filter-app">
                         <div className="portfolio-wrap">
                             <img src="assets/img/portfolio/portfolio-6.jpg" className="img-fluid" alt="" />
                             <div className="portfolio-info">

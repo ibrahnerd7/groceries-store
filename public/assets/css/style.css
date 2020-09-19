@@ -789,6 +789,7 @@ section {
   overflow: hidden;
   z-index: 1;
   background: rgba(54, 52, 58, 0.6);
+  border-radius: 10px;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -806,6 +807,7 @@ section {
 
 .portfolio .portfolio-wrap img {
   transition: all ease-in-out 0.3s;
+  border-radius: 10px;
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
