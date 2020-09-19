@@ -3,17 +3,17 @@ import  'firebase/auth'
 import 'firebase/firestore'
 import 'firebase/storage'
 
-let firebaseConfig = {
-    apiKey: "AIzaSyBg2HiJ0Nhl6iBtfTXAFePGZMn6-55Qbuk",
-    authDomain: "beer-74b9d.firebaseapp.com",
-    databaseURL: "https://beer-74b9d.firebaseio.com",
-    projectId: "beer-74b9d",
-    storageBucket: "beer-74b9d.appspot.com",
-    messagingSenderId: "539508038107",
-    appId: "1:539508038107:web:445ae5ad5e0d33acf3affe",
-    measurementId: "G-LLNNEF5CWX"
-}
-
+const firebaseConfig = {
+    apiKey: "AIzaSyA8lmp2LHz0cqM7D91fbpjmrUUbuLQT8t8",
+    authDomain: "grocery-store-a808f.firebaseapp.com",
+    databaseURL: "https://grocery-store-a808f.firebaseio.com",
+    projectId: "grocery-store-a808f",
+    storageBucket: "grocery-store-a808f.appspot.com",
+    messagingSenderId: "387582739303",
+    appId: "1:387582739303:web:52af4ad2c19c8f6adfa5c2",
+    measurementId: "G-4KLB3C4WFS"
+  };
+  
 let app = firebase.initializeApp(firebaseConfig);
 
 export const authentication = firebase.auth(app);
