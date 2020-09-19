@@ -1100,8 +1100,8 @@ section {
   font-size: 13px;
 }
 
-.contact .php-email-form .error-message {
-  display: none;
+ .error-message {
+  display: block;
   color: #fff;
   background: #ed3c0d;
   text-align: left;
@@ -1122,14 +1122,14 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .loading {
-  display: none;
+.loading {
+  display: block;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.contact .php-email-form .loading:before {
+.loading:before{
   content: "";
   display: inline-block;
   border-radius: 50%;
