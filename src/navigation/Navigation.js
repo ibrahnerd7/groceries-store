@@ -1,10 +1,13 @@
-import React from 'react'
+import React,{useContext}  from 'react'
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import Login from '../pages/auth/Login';
 import Signup from '../pages/auth/Signup';
 import Home from '../pages/Home';
+import  {UserContext} from "../providers/Userprovider";
 
 const Navigation = () => {
+const user=useContext(UserContext)
+
     return (
         <BrowserRouter>
             <Switch>
