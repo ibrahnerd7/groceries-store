@@ -10,7 +10,7 @@ const Desktop = (props) => {
         <nav className="nav-menu d-none d-lg-block">
             <ul>
                 <li className="active"><a href="#header">Home</a></li>
-                <li><a href="#about">Grocery</a></li>
+                <li><a href="#grocery">Grocery</a></li>
                 <li><a href="#portfolio">Drinks</a></li>
                 <li className="drop-down"><a href="">Account</a>
                     <ul>
