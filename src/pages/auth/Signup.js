@@ -19,7 +19,7 @@ const Signup = (props) => {
             setError(user.message)
             setIsloading(false)
         } else {
-            history.push("/")
+            history.push("/login")
             setIsloading(false)
         }
 
